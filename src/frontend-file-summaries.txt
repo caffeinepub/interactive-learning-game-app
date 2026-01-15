@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, profile setup, and renders the game container with theme provider and toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including user profiles, level progress, challenge completion, and progress reset with proper cache invalidation.",
+  "frontend/src/components/Header.tsx": "Application header with branding, user greeting, and login button that displays the current user's name when authenticated.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with copyright notice and caffeine.ai attribution link.",
+  "frontend/src/components/LoginButton.tsx": "Reusable authentication button that handles login/logout with Internet Identity and clears query cache on logout.",
+  "frontend/src/components/ProfileSetup.tsx": "Profile setup modal that prompts new users to enter their name before accessing the game.",
+  "frontend/src/components/GameContainer.tsx": "Main game orchestrator that manages level selection, current level state, and synchronizes local progress with backend persistence.",
+  "frontend/src/components/LevelSelector.tsx": "Grid view of all available levels showing completion status, progress tracking, and level unlocking with reset functionality.",
+  "frontend/src/components/LevelView.tsx": "Individual level container that displays level information, progress tracking, and navigates between challenges within a level.",
+  "frontend/src/components/ChallengeView.tsx": "Interactive challenge component supporting multiple-choice and matching question types with immediate feedback, explanations, and visual indicators; all React hooks are now called at the top level to comply with Rules of Hooks.",
+  "frontend/src/types/game.ts": "TypeScript type definitions for game entities including Challenge and Level interfaces.",
+  "frontend/src/data/levels.ts": "Educational content structured into two levels with multiple challenges covering learning techniques and memory retention concepts.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring purple-blue gradient theme optimized for educational content in both light and dark modes."
+}
